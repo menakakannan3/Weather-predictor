@@ -1,0 +1,151 @@
+/*App.css*/
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+html {
+    height: 100%; 
+}
+
+body {
+    background: whitesmoke;
+    padding: 1rem 5rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    background:  url('https://images.unsplash.com/photo-1487621167305-5d248087c724?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: rgb(0, 0, 0);
+   
+}
+
+#input {
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: aliceblue;
+  
+}
+
+#search {
+    background: none;
+    padding: 5px 20px;
+    color: aliceblue;
+    outline: none;
+    background: cadetblue;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.weather {
+    text-align: center;
+    color: aliceblue;
+}
+
+#city {
+    font-size: 30px;
+}
+
+.weather img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(240, 248, 255, 0.408);
+}
+
+#temperature {
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.temp-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+#clouds {
+    font-size: 20px;
+    background: rgba(67, 131, 161, 0.778);
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+
+main {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr 5px 1fr;
+    align-items: center;
+    margin: 0 50px;
+    color: white;
+}
+
+.next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.next p,
+.next h3 {
+    margin: 3px 0;
+}
+
+.forecstD {
+    margin: 20px 50px;
+    color: aliceblue;
+}
+
+.weekF {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cast-header {
+    color: aliceblue;
+    background: rgba(67, 131, 161, 0.778);
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.divider1,
+.divider2 {
+    background: rgba(81, 191, 255, 0.539);
+    height: 200px;
+    border-radius: 5px;
+}
+
+.divider2 {
+    height: 5px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.time,
+.date {
+    color: rgba(25, 222, 240, 0.778);
+}
+
+.desc {
+    color: rgba(255, 255, 255, 0.778);
+}
